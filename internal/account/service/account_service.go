@@ -3,14 +3,14 @@ package service
 import (
 	"context"
 
-	"github.com/gaogao-asia/golang-template/internal/domain"
+	"github.com/davidtrse/go-clean-arch/internal/domain"
 )
 
 type accountService struct {
 	accountRepo domain.AccountRepository
 }
 
-func NewAccountService(accountRepo domain.AccountRepository) *accountService {
+func NewAccountService(accountRepo domain.AccountRepository) domain.AccountService {
 	return &accountService{
 		accountRepo: accountRepo,
 	}

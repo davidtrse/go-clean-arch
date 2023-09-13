@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/gaogao-asia/golang-template/config"
-	"github.com/gaogao-asia/golang-template/internal/server"
+	"github.com/davidtrse/go-clean-arch/config"
+	"github.com/davidtrse/go-clean-arch/internal/server"
 )
 
 func main() {

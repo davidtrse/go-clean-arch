@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	itest "github.com/gaogao-asia/golang-template/integration_test"
+	itest "github.com/davidtrse/go-clean-arch/integration_test"
 )
 
 func TestMain(m *testing.M) {

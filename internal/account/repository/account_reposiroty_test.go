@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/gaogao-asia/golang-template/internal/domain"
-	"github.com/gaogao-asia/golang-template/pkg/testutil"
+	"github.com/davidtrse/go-clean-arch/internal/domain"
+	"github.com/davidtrse/go-clean-arch/pkg/testutil"
 	"github.com/stretchr/testify/assert"
 	"gorm.io/gorm"
 )

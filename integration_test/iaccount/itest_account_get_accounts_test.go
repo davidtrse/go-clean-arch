@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"testing"
 
-	itest "github.com/gaogao-asia/golang-template/integration_test"
+	itest "github.com/davidtrse/go-clean-arch/integration_test"
 
-	adto "github.com/gaogao-asia/golang-template/internal/account/dto"
-	"github.com/gaogao-asia/golang-template/internal/domain"
-	"github.com/gaogao-asia/golang-template/pkg/utils"
+	adto "github.com/davidtrse/go-clean-arch/internal/account/dto"
+	"github.com/davidtrse/go-clean-arch/internal/domain"
+	"github.com/davidtrse/go-clean-arch/pkg/utils"
 	"github.com/samber/lo"
 	"github.com/stretchr/testify/assert"
 )

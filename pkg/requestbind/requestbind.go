@@ -1,8 +1,8 @@
 package requestbind
 
 import (
-	"github.com/gaogao-asia/golang-template/pkg/errs"
-	"github.com/gaogao-asia/golang-template/pkg/utils"
+	"github.com/davidtrse/go-clean-arch/pkg/errs"
+	"github.com/davidtrse/go-clean-arch/pkg/utils"
 	"github.com/gin-gonic/gin"
 )
 

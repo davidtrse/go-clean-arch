@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	itest "github.com/gaogao-asia/golang-template/integration_test"
-	adto "github.com/gaogao-asia/golang-template/internal/account/dto"
-	"github.com/gaogao-asia/golang-template/internal/domain"
-	"github.com/gaogao-asia/golang-template/pkg/utils"
+	itest "github.com/davidtrse/go-clean-arch/integration_test"
+	adto "github.com/davidtrse/go-clean-arch/internal/account/dto"
+	"github.com/davidtrse/go-clean-arch/internal/domain"
+	"github.com/davidtrse/go-clean-arch/pkg/utils"
 	"github.com/stretchr/testify/assert"
 )
 

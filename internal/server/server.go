@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gaogao-asia/golang-template/config"
-	"github.com/gaogao-asia/golang-template/pkg/connection"
+	"github.com/davidtrse/go-clean-arch/config"
+	"github.com/davidtrse/go-clean-arch/pkg/connection"
 	"github.com/gin-gonic/gin"
 )
 

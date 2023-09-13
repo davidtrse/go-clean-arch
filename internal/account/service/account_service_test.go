@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gaogao-asia/golang-template/internal/domain"
-	"github.com/gaogao-asia/golang-template/mocks"
-	"github.com/gaogao-asia/golang-template/pkg/errs"
+	"github.com/davidtrse/go-clean-arch/internal/domain"
+	"github.com/davidtrse/go-clean-arch/mocks"
+	"github.com/davidtrse/go-clean-arch/pkg/errs"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

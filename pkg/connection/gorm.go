@@ -3,11 +3,13 @@ package connection
 import (
 	"log"
 
-	"github.com/gaogao-asia/golang-template/config"
+	"github.com/davidtrse/go-clean-arch/config"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 )
+
+var DB *gorm.DB
 
 type Conn struct {
 	DB *gorm.DB
@@ -26,7 +28,7 @@ func GetConnection() (Conn, error) {
 		log.Println(err)
 		return Conn{}, err
 	}
-
+	DB = pgDB
 	return Conn{
 		DB: pgDB,
 	}, nil

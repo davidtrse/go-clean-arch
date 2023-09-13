@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gaogao-asia/golang-template/internal/account/dto"
-	"github.com/gaogao-asia/golang-template/internal/domain"
-	"github.com/gaogao-asia/golang-template/internal/server/http/response"
-	"github.com/gaogao-asia/golang-template/pkg/requestbind"
+	"github.com/davidtrse/go-clean-arch/internal/account/dto"
+	"github.com/davidtrse/go-clean-arch/internal/domain"
+	"github.com/davidtrse/go-clean-arch/internal/server/http/response"
+	"github.com/davidtrse/go-clean-arch/pkg/requestbind"
 	"github.com/gin-gonic/gin"
 )
 

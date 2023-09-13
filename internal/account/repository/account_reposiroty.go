@@ -3,8 +3,8 @@ package repository
 import (
 	"context"
 
-	"github.com/gaogao-asia/golang-template/internal/domain"
-	"github.com/gaogao-asia/golang-template/pkg/errs"
+	"github.com/davidtrse/go-clean-arch/internal/domain"
+	"github.com/davidtrse/go-clean-arch/pkg/errs"
 	"gorm.io/gorm"
 )
 
@@ -12,7 +12,7 @@ type accountRepository struct {
 	DB *gorm.DB
 }
 
-func NewAccountRepository(db *gorm.DB) *accountRepository {
+func NewAccountRepository(db *gorm.DB) domain.AccountRepository {
 	return &accountRepository{
 		DB: db,
 	}

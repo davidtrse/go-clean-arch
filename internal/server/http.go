@@ -3,9 +3,9 @@ package server
 import (
 	"net/http"
 
-	"github.com/gaogao-asia/golang-template/internal/server/http/handler"
-	"github.com/gaogao-asia/golang-template/internal/server/http/middleware"
-	"github.com/gaogao-asia/golang-template/pkg/connection"
+	"github.com/davidtrse/go-clean-arch/internal/server/http/handler"
+	"github.com/davidtrse/go-clean-arch/internal/server/http/middleware"
+	"github.com/davidtrse/go-clean-arch/pkg/connection"
 	"github.com/gin-gonic/gin"
 )
 

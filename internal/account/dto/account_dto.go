@@ -1,6 +1,6 @@
 package dto
 
-import "github.com/gaogao-asia/golang-template/pkg/errs"
+import "github.com/davidtrse/go-clean-arch/pkg/errs"
 
 const (
 	RoleAdmin  string = "admin"

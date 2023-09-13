@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gaogao-asia/golang-template/pkg/errs"
+	"github.com/davidtrse/go-clean-arch/pkg/errs"
 	"github.com/gin-gonic/gin"
 )
 

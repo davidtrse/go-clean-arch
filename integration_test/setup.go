@@ -8,12 +8,12 @@ import (
 	"net/http/httptest"
 	"strings"
 
-	"github.com/gaogao-asia/golang-template/config"
-	"github.com/gaogao-asia/golang-template/internal/server"
-	"github.com/gaogao-asia/golang-template/internal/server/http/response"
-	"github.com/gaogao-asia/golang-template/pkg/connection"
-	"github.com/gaogao-asia/golang-template/pkg/testutil"
-	"github.com/gaogao-asia/golang-template/pkg/utils"
+	"github.com/davidtrse/go-clean-arch/config"
+	"github.com/davidtrse/go-clean-arch/internal/server"
+	"github.com/davidtrse/go-clean-arch/internal/server/http/response"
+	"github.com/davidtrse/go-clean-arch/pkg/connection"
+	"github.com/davidtrse/go-clean-arch/pkg/testutil"
+	"github.com/davidtrse/go-clean-arch/pkg/utils"
 	"github.com/gin-gonic/gin"
 )
 

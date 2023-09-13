@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	domain "github.com/gaogao-asia/golang-template/internal/domain"
+	domain "github.com/davidtrse/go-clean-arch/internal/domain"
 	mock "github.com/stretchr/testify/mock"
 )
 

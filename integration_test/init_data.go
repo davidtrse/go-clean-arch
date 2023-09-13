@@ -3,7 +3,7 @@ package integrationtest
 import (
 	"testing"
 
-	"github.com/gaogao-asia/golang-template/internal/domain"
+	"github.com/davidtrse/go-clean-arch/internal/domain"
 )
 
 type ITestData struct {

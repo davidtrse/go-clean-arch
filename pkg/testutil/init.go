@@ -1,6 +1,6 @@
 package testutil
 
-import "github.com/gaogao-asia/golang-template/config"
+import "github.com/davidtrse/go-clean-arch/config"
 
 func InitConfigForIntegrationTest() {
 	var err error

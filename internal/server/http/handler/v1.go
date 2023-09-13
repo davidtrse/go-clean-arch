@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"github.com/gaogao-asia/golang-template/internal/di"
-	"github.com/gaogao-asia/golang-template/pkg/connection"
+	"github.com/davidtrse/go-clean-arch/internal/di"
+	"github.com/davidtrse/go-clean-arch/pkg/connection"
 	"github.com/gin-gonic/gin"
 )
 
@@ -25,7 +25,7 @@ func (r *newRouterParams) Register() {
 }
 
 func (r *newRouterParams) registerAccount() {
-	accountHandler := di.InitAccountHandler(r.Conn.DB)
+	accountHandler := di.InitAccountHandler()
 
 	account := r.v1.Group("/accounts")
 	{
